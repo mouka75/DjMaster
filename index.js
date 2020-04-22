@@ -6,7 +6,7 @@ const client = new Discord.Client();
 
 const queue = new Map();
 
-var token = process.env.Bot_Token ;
+const token = process.env.Bot_Token ;
 
 client.once("ready", () => {
   console.log("Ready!");
