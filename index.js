@@ -1,12 +1,10 @@
 const Discord = require("discord.js");
-const { prefix } = require("./config.json");
 const ytdl = require("ytdl-core");
 
 const client = new Discord.Client();
-
+const token = process.env.BOT_TOKEN;
+const prefix = process.env.prefix;
 const queue = new Map();
-
-const token = process.env.Bot_Token ;
 
 client.once("ready", () => {
   console.log("Ready!");
