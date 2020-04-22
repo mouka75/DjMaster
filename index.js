@@ -131,4 +131,4 @@ function play(guild, song) {
   serverQueue.textChannel.send(`Start playing: **${song.title}**`);
 }
 
-client.login(token);
+client.login("NzAyMjU0NDgxNDQ1NzQ4ODE5.XqAeTw.FIG47Cdz65ehf3izjzziiJq3i3Q");
